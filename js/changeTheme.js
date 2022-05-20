@@ -1,5 +1,3 @@
-export default changeTheme;
-
 //dark mode function
 function changeTheme() {
 
@@ -26,7 +24,7 @@ function changeTheme() {
         document.querySelector("h1").style.color = "#a8a8a8";
     })();
 
-    //muda a cor do textares
+    //muda a cor do textareas
     (() => {
         document.querySelector("textarea").style.color = "#a8a8a8";
     })();
@@ -35,3 +33,5 @@ function changeTheme() {
     
     document.querySelector("button.btnThemes").addEventListener("click", ()=> window.location.reload())
 }
+
+

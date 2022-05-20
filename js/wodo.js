@@ -1,5 +1,4 @@
-//importando a função de mudança de tema
-import changeTheme from '../js/changeTheme.js';
+
                         //MAIN CODE
 
 // add a item on ul
